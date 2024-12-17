@@ -37,12 +37,15 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    background-color: #F8DCD8;
+    text-shadow: 2px 2px 4px #faf9f9;
 }
 
 .nav-links {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+    background-color: #F8DCD8;
 
 }
 
@@ -66,6 +69,7 @@ a:hover {
 .logo:hover {
     cursor: default;
 }
+
 
 /*HamBurger Menu */
 
@@ -98,7 +102,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: #F8DCD8;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
