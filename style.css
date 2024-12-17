@@ -9,7 +9,7 @@
 
 body {
    font-family: "Poppins", sans-serif; 
-   background-color: #f8dcd886;   
+   background-color: #f8dcd87a;
 }
 
 html {
@@ -201,9 +201,12 @@ section {
 }
 .section__text__p1 {
     text-align: center;
-    text-shadow: 2px 2px 4px #000000;
+    font-size: 21px;
 }
 
+.profile_text{
+    text-shadow: 2px 2px 4px #000000f4;
+}
 
 .section__text__p2 {
     font-size: 1.75rem;
@@ -276,7 +279,7 @@ section {
 }
 
 .btn-color-2:hover {
-    border: rgb(255,255,255) 0.1 rem solid;
+    border: rgb(255,255,255) 0.1rem solid;
 }
 
 .btn-container {
@@ -287,7 +290,11 @@ section {
 
 #about {
     position: relative;
+    background-image: url('./assests/');
+    background-size: 80vw;
+    background-position: center;
 }
+
 
 .about-containers {
     gap: 2rem;
@@ -340,6 +347,11 @@ section {
 #experience {
     position: relative;
 }
+
+.exp-back{
+    background-color: #F73291;
+}
+
 
 .experience-sub-title {
     color: rgb(85,85,85);

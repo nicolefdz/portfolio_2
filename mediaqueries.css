@@ -97,6 +97,7 @@
     }
   }
     
+/*Typing text */
   @keyframes cursor{
     to{
         border-left: 3px solid #49002b;
@@ -126,3 +127,5 @@
         font-size: 1rem; 
     }
 }
+
+/*gradient animation*/
