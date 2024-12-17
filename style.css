@@ -201,7 +201,7 @@ section {
 }
 .section__text__p1 {
     text-align: center;
-    font-size: 21px;
+    font-size: 27px;
 }
 
 .profile_text{
@@ -217,7 +217,11 @@ section {
     font-size: 3rem;
     text-align: center;
     color: #000000;
-    text-shadow: 2px 2px 4px #faf9f9;
+    
+}
+
+.title_1 {
+    text-shadow: 2px 2px 4px white;
 }
 
 #socials-container {
@@ -290,11 +294,10 @@ section {
 
 #about {
     position: relative;
-    background-image: url('./assests/');
-    background-size: 80vw;
+    background-image: url('./assests/f14.gif');
+    background-size: cover;
     background-position: center;
 }
-
 
 .about-containers {
     gap: 2rem;
@@ -340,6 +343,11 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+.about-me {
+    color: white;
+    text-shadow: 2px 2px 4px #000000ee;
 }
 
 /* experience section */
