@@ -294,9 +294,9 @@ section {
 
 #about {
     position: relative;
-    background-image: url('./assests/f14.gif');
+   /* background-image: url('./assests/f14.gif');
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
 }
 
 .about-containers {
@@ -347,7 +347,8 @@ section {
 
 .about-me {
     color: white;
-    text-shadow: 2px 2px 4px #000000ee;
+    text-shadow: 2px 2px 4px #00000094;
+    background: linear-gradient(0.33turn, #f73291ca, #f7952dd5);
 }
 
 /* experience section */
