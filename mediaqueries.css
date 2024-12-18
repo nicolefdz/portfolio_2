@@ -43,6 +43,9 @@
     .about-containers {
       margin-top: 1;
     }
+    .about-pic{
+      margin-top: 3.5vw;
+    }
   }
 
   @media screen and (max-width: 600px) {
@@ -83,7 +86,7 @@
     }
     .section__pic-container{
       width: auto;
-      height: 46vw;
+      height: 55vw;
       justify-content: center;
     }
     .section__text__p2 {
