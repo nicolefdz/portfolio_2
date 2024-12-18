@@ -201,7 +201,8 @@ section {
 }
 .section__text__p1 {
     text-align: center;
-    font-size: 27px;
+    font-size: 24px;
+    color:#625654;
 }
 
 .profile_text{
@@ -294,9 +295,6 @@ section {
 
 #about {
     position: relative;
-   /* background-image: url('./assests/f14.gif');
-    background-size: cover;
-    background-position: center;*/
 }
 
 .about-containers {
@@ -327,10 +325,10 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: #f8dcd839;
     border-radius: 2rem;
     border: rgb(53, 53,53)0.1rem solid;
-    border-color: rgb(163,163,163);
+    border-color:#e0c4c0;
     text-align: center;
 }
 
@@ -395,6 +393,11 @@ article .icon{
     cursor: default;
 }
 
+.exp-title{
+    color: white;
+    text-shadow: 2px 2px 4px #00000094;
+    background: linear-gradient(0.33turn, #f73291ca, #f7952dd5);
+}
 /* Projects Section */
 
 #projects {
@@ -420,6 +423,12 @@ article .icon{
 .project-btn {
     color: black;
     border-color: rgb(163,163,163)
+}
+
+.proj-title{
+    color: white;
+    text-shadow: 2px 2px 4px #00000094;
+    background: linear-gradient(0.33turn, #f73291ca, #f7952dd5);
 }
 
 /* CONTACT SECTION */
@@ -460,6 +469,12 @@ article .icon{
 
 .email-icon {
     height: 2.5rem;
+}
+
+.cont-title{
+    color: white;
+    text-shadow: 2px 2px 4px #00000094;
+    background: linear-gradient(0.33turn, #f73291ca, #f7952dd5);
 }
 
 /* Footer */
