@@ -155,8 +155,8 @@ a:hover {
 /* Section */
 
 section {
-    padding-top:4vh;
-    height: 96vh;
+    padding-top:10vh;
+    height: 90vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -443,7 +443,7 @@ article .icon{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 45vh;
 }
 
 .contact-info-upper-container {
