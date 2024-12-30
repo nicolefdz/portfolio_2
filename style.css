@@ -385,6 +385,9 @@ section {
     justify-content: space-around;
 }
 
+.article-container-2{
+    flex-direction: row;
+}
 article {
     display: flex;
     width: 17rem;
